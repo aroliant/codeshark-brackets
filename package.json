@@ -1,18 +1,12 @@
 {
     "name": "code-shark-brackets",
-    "title": "Pretty Title for the UI",
-    "description": "More useful details to let someone know what your extension is all about.",
-    "homepage": "https://github.com/yourname/yourproject",
+    "title": "Code Shark",
+    "description": "Platform to improve your coding. Saving the code once to get it for future use.",
+    "homepage": "https://github.com/Aroliant/code-shark-brackets",
     "version": "1.0.0",
-    "author": "Your Name <your@email> (http://your.url)",
+    "author": "Aroliant <codeshark@aroliant.com> (https://codeshark.live)",
     "license": "MIT",
     "engines": {
         "brackets": ">=0.24.0"
-    },
-    "i18n": [ "en", "fr"],
-    "package-i18n": {
-        "fr": {
-            "description": "Plus de détails utiles pour laisser quelqu'un savoir ce que votre poste est tout au sujet."
-        }
     }
 }
