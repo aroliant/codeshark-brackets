@@ -183,7 +183,7 @@ define(function (require, exports, module) {
 
     
     var SEARCH_COMMAND_ID = "live.codeshark.plugin.searchPrograms";
-    CommandManager.register("Search Code", SEARCH_COMMAND_ID, init);
+    CommandManager.register("CodeShark: Search Code", SEARCH_COMMAND_ID, init);
     
     var menu = Menus.getMenu(Menus.AppMenuBar.FIND_MENU);
 	
