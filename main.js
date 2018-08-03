@@ -31,7 +31,7 @@ define(function (require, exports, module) {
 
         var dialog, codeSharkKey, $input, $okButton;
 
-        dialog  = Dialogs.showModalDialog('DefaultDialogs', 'Enter your Code Shark api key:', '<input type="text" id="code-shark-key" name="code-shark" value="' + prefs.get("apikey") + '" style="width: 97.5%;"/>', [{ className: Dialogs.DIALOG_BTN_CLASS_PRIMARY + ' code-shark-ok', id: Dialogs.DIALOG_BTN_OK, text: 'Ok' }, { id: Dialogs.DIALOG_BTN_CANCEL, text: 'Cancel'}]);
+        dialog  = Dialogs.showModalDialog('DefaultDialogs', 'Enter your CodeShark API Key:', '<input type="text" id="code-shark-key" name="code-shark" value="' + prefs.get("apikey") + '" style="width: 97.5%;"/>', [{ className: Dialogs.DIALOG_BTN_CLASS_PRIMARY + ' code-shark-ok', id: Dialogs.DIALOG_BTN_OK, text: 'Ok' }, { id: Dialogs.DIALOG_BTN_CANCEL, text: 'Cancel'}]);
         $input = $('#code-shark-key');
         $okButton = $('.code-shark-ok');
         $okButton.on('click', function (event) {
@@ -196,7 +196,7 @@ define(function (require, exports, module) {
 	
 	
 	var SEARCH_COMMAND = "live.codeshark.plugin.addApiKey";
-    CommandManager.register("Add CodeShark API Key", SEARCH_COMMAND, promptForApiKey);
+    CommandManager.register("CodeShark: Update API Key", SEARCH_COMMAND, promptForApiKey);
     
     var menu1 = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
 	
