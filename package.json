@@ -1,9 +1,9 @@
 {
-    "name": "codeshark-brackets",
-    "title": "CodeShark",
+    "name": "code-shark-brackets",
+    "title": "Code Shark",
     "description": "Import code into your editor with our CodeShark Online Platform.",
     "homepage": "https://github.com/Aroliant/codeshark-brackets",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Aroliant <codeshark@aroliant.com> (https://codeshark.live)",
     "license": "MIT",
     "engines": {
